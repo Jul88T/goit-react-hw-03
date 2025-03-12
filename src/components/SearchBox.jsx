@@ -1,13 +1,13 @@
 const SearchBox = ({ searchQuery, onSearch }) => {
   return (
     <div>
-      <label htmlFor="search">Пошук:</label>
+      <label htmlFor="search">Find contacts by name:</label>
       <input
         type="text"
         id="search"
         value={searchQuery}
         onChange={(e) => onSearch(e.target.value)}
-        placeholder="Пошук за ім'ям"
+        placeholder="Name"
       />
     </div>
   );
