@@ -8,7 +8,9 @@ const Contact = ({ contact, onDelete }) => {
       <p>
         {contact.name}: {contact.number}
       </p>
-      <button onClick={handleDelete}>Delete</button>
+      <button className="delete-button" onClick={handleDelete}>
+        Delete
+      </button>
     </li>
   );
 };

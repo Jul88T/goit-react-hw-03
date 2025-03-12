@@ -70,7 +70,7 @@ ul {
   font-size: 18px;
 }
 
-button {
+.delete-button {
   padding: 5px 10px;
   font-size: 14px;
   background-color: #f44336;
@@ -80,7 +80,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.delete-button:hover {
   background-color: #d32f2f;
 }
 
